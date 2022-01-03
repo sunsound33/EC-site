@@ -56,6 +56,9 @@ return [
 
     'asset_url' => env('ASSET_URL', null),
 
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost:80'),
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
