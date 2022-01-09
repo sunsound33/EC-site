@@ -1,19 +1,5 @@
 # Next.js × Laravel の環境構築
 
-## 前提
-
-- M1Mac対応
-- Intel製チップMacの場合は`.docker/db/Dockerfile`を以下の通り修正
-- Windowsでの動作確認は行っていない
-
-```diff
-- FROM --platform=linux/x86_64 mysql:8.0
-+ FROM mysql:8.0
-
-ENV TZ=UTC
-
-COPY my.cnf /etc/my.cnf
-```
 
 ## コンテナ起動
 
